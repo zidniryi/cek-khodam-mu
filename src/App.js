@@ -38,8 +38,8 @@ const App = () => {
     if (navigator.share) {
       navigator.share({
         title: 'Cek Khodam',
-        text: `${khodam} dan kunjungi www.cekkhodam.com`,
-        url: 'https://www.cekkhodam.com',
+        text: `${khodam} dan kunjungi https://cek-khodam-mu.vercel.app/`,
+        url: 'https://cek-khodam-mu.vercel.app/',
       });
     } else {
       alert('Fitur share tidak didukung oleh browser ini.');
